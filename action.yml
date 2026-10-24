@@ -1,0 +1,7 @@
+name: synthetic
+description: Synthetic action for the Arbiter live suite
+runs:
+  using: composite
+  steps:
+    - run: echo "synthetic"
+      shell: bash
